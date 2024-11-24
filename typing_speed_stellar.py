@@ -142,8 +142,8 @@ class TypeSpeedGUI:
 
     def transfer_xlm(self, level_var):
         """Transfers XLM based on the reward level."""
-        source_address = "GDNKWPRX57FAJPHVS4CN7TWHPQ2MQYWNFPVOJV2TD2BTATDIQWP6GHY3"  # Source address for sending XLM
-        source_secret = "SCBGRSEGKRMYTMTNYROQZNHD4PBP42VWXYGZROPISOHEPW7NE2LLG3NH"  # Secret key of the source address
+        source_address = "your address"  # Source address for sending XLM
+        source_secret = "your secret key"  # Secret key of the source address
         source_keypair = Keypair.from_secret(source_secret)  # Create a keypair from the secret
 
         # Select the reward based on the difficulty level
